@@ -21,7 +21,7 @@ By leveraging **Playwright** for browser automation, **Xvfb** for virtual displa
 * **Docker** and **Docker Compose** installed.
 * Access to a BigBlueButton server (the tool reads from `/var/bigbluebutton/published/`).
 * A user with permissions to execute Docker commands.
-
+* comments - https://github.com/ebbba-org/ansible-role-bigbluebutton/issues/397
 ---
 
 ## ⚙️ Configuration
