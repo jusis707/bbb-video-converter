@@ -1,4 +1,4 @@
-# BigBlueButtonv.3 Video Converter
+# BigBlueButton v.3 Video Converter
 
 A high-performance, containerized tool designed to transform BigBlueButton (BBB) playback presentations into standalone, shareable MP4 video files.
 
