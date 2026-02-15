@@ -1,7 +1,9 @@
 #!/bin/bash
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
-cd /root/pl
+WORK_FOLDER="/root/pl"
+cd $WORK_FOLDER
+
 RECORDING_ID=$1
 
 
