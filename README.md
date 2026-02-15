@@ -35,6 +35,4 @@ WORK_FOLDER="/root/pl"
 # The base URL for your BBB playback (usually ends in /playback/presentation/2.3)
 BASE_URL="[https://your-bbb-domain.com/playback/presentation/2.3](https://your-bbb-domain.com/playback/presentation/2.3)"
 
-<p>---</p>
-<p>
-Usage: ./run-recorder.sh <recording_id></p>
+Usage: ./run-recorder.sh <recording_id>
