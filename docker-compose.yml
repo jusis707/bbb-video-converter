@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  bbb-recorder:
+    image: pl-bbb-recorder:latest
+#    build: .
+#    container_name: bbb-recorder
+    volumes:
+      - ./videos:/app/videos
+    environment:
+      - PRESENTATION_URL=${PRESENTATION_URL}
+      - RECORDING_DURATION=${RECORDING_DURATION}
+      - RECORDING_ID=${RECORDING_ID}
+      - DISPLAY=:99
+    shm_size: 5gb
