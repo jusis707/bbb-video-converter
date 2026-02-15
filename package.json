@@ -1,0 +1,12 @@
+{
+  "name": "bbb-recorder",
+  "version": "1.0.0",
+  "description": "Record BBB presentations using Playwright",
+  "main": "recorder.js",
+  "dependencies": {
+    "playwright": "^1.41.0"
+  },
+  "scripts": {
+    "start": "node recorder.js"
+  }
+}
