@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   bbb-recorder:
-    image: pl-bbb-recorder:latest
+    image: jusis707/bbb-video-converter:v1
 #    build: .
 #    container_name: bbb-recorder
     volumes:
