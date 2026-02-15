@@ -7,6 +7,7 @@ services:
 #    container_name: bbb-recorder
     volumes:
       - ./videos:/app/videos
+      - ./run-recorder.sh:/app/run-recorder.sh
     environment:
       - PRESENTATION_URL=${PRESENTATION_URL}
       - RECORDING_DURATION=${RECORDING_DURATION}
